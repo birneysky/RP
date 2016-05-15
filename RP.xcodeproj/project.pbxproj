@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7413AD011CE6EAD200EDBAEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7413AD001CE6EAD200EDBAEC /* main.m */; };
+		7413AD041CE6EAD200EDBAEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7413AD031CE6EAD200EDBAEC /* AppDelegate.m */; };
+		7413AD071CE6EAD200EDBAEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7413AD061CE6EAD200EDBAEC /* ViewController.m */; };
+		7413AD0A1CE6EAD200EDBAEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7413AD081CE6EAD200EDBAEC /* Main.storyboard */; };
+		7413AD0C1CE6EAD200EDBAEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7413AD0B1CE6EAD200EDBAEC /* Assets.xcassets */; };
+		7413AD0F1CE6EAD200EDBAEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7413AD0D1CE6EAD200EDBAEC /* LaunchScreen.storyboard */; };
+		7413AD1A1CE6EAD200EDBAEC /* RPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7413AD191CE6EAD200EDBAEC /* RPTests.m */; };
+		7413AD251CE6EAD200EDBAEC /* RPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7413AD241CE6EAD200EDBAEC /* RPUITests.m */; };
+		7413AD5C1CE6F2E700EDBAEC /* h264_nal_unit.c in Sources */ = {isa = PBXBuildFile; fileRef = 7413AD491CE6F2E700EDBAEC /* h264_nal_unit.c */; };
+		7413AD5D1CE6F2E700EDBAEC /* h264_parse.c in Sources */ = {isa = PBXBuildFile; fileRef = 7413AD4B1CE6F2E700EDBAEC /* h264_parse.c */; };
+		7413AD5E1CE6F2E700EDBAEC /* h264_pic_parameter_set.c in Sources */ = {isa = PBXBuildFile; fileRef = 7413AD4D1CE6F2E700EDBAEC /* h264_pic_parameter_set.c */; };
+		7413AD5F1CE6F2E700EDBAEC /* h264_sequence_parameter_set.c in Sources */ = {isa = PBXBuildFile; fileRef = 7413AD4F1CE6F2E700EDBAEC /* h264_sequence_parameter_set.c */; };
+		7413AD601CE6F2E700EDBAEC /* h264_slice.c in Sources */ = {isa = PBXBuildFile; fileRef = 7413AD511CE6F2E700EDBAEC /* h264_slice.c */; };
+		7413AD611CE6F2E700EDBAEC /* h264_stream.c in Sources */ = {isa = PBXBuildFile; fileRef = 7413AD531CE6F2E700EDBAEC /* h264_stream.c */; };
+		7413AD621CE6F2E700EDBAEC /* h264_vui_parameters.c in Sources */ = {isa = PBXBuildFile; fileRef = 7413AD551CE6F2E700EDBAEC /* h264_vui_parameters.c */; };
+		7413AD641CE6F2E700EDBAEC /* test_h264_parse.c in Sources */ = {isa = PBXBuildFile; fileRef = 7413AD581CE6F2E700EDBAEC /* test_h264_parse.c */; };
+		7413AD651CE6F2E700EDBAEC /* test_h264_stream.c in Sources */ = {isa = PBXBuildFile; fileRef = 7413AD5A1CE6F2E700EDBAEC /* test_h264_stream.c */; };
+		7425918A1CE6F38B00178E5C /* all_tests.c in Sources */ = {isa = PBXBuildFile; fileRef = 742591871CE6F38B00178E5C /* all_tests.c */; };
+		7425918B1CE6F38B00178E5C /* CuTest.c in Sources */ = {isa = PBXBuildFile; fileRef = 742591881CE6F38B00178E5C /* CuTest.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7413AD161CE6EAD200EDBAEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7413ACF41CE6EAD200EDBAEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7413ACFB1CE6EAD200EDBAEC;
+			remoteInfo = RP;
+		};
+		7413AD211CE6EAD200EDBAEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7413ACF41CE6EAD200EDBAEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7413ACFB1CE6EAD200EDBAEC;
+			remoteInfo = RP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7413ACFC1CE6EAD200EDBAEC /* RP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7413AD001CE6EAD200EDBAEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7413AD021CE6EAD200EDBAEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7413AD031CE6EAD200EDBAEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7413AD051CE6EAD200EDBAEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7413AD061CE6EAD200EDBAEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7413AD091CE6EAD200EDBAEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7413AD0B1CE6EAD200EDBAEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7413AD0E1CE6EAD200EDBAEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7413AD101CE6EAD200EDBAEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7413AD151CE6EAD200EDBAEC /* RPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7413AD191CE6EAD200EDBAEC /* RPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPTests.m; sourceTree = "<group>"; };
+		7413AD1B1CE6EAD200EDBAEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7413AD201CE6EAD200EDBAEC /* RPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7413AD241CE6EAD200EDBAEC /* RPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPUITests.m; sourceTree = "<group>"; };
+		7413AD261CE6EAD200EDBAEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7413AD401CE6ED0100EDBAEC /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		7413AD491CE6F2E700EDBAEC /* h264_nal_unit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = h264_nal_unit.c; sourceTree = "<group>"; };
+		7413AD4A1CE6F2E700EDBAEC /* h264_nal_unit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = h264_nal_unit.h; sourceTree = "<group>"; };
+		7413AD4B1CE6F2E700EDBAEC /* h264_parse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = h264_parse.c; sourceTree = "<group>"; };
+		7413AD4C1CE6F2E700EDBAEC /* h264_parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = h264_parse.h; sourceTree = "<group>"; };
+		7413AD4D1CE6F2E700EDBAEC /* h264_pic_parameter_set.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = h264_pic_parameter_set.c; sourceTree = "<group>"; };
+		7413AD4E1CE6F2E700EDBAEC /* h264_pic_parameter_set.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = h264_pic_parameter_set.h; sourceTree = "<group>"; };
+		7413AD4F1CE6F2E700EDBAEC /* h264_sequence_parameter_set.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = h264_sequence_parameter_set.c; sourceTree = "<group>"; };
+		7413AD501CE6F2E700EDBAEC /* h264_sequence_parameter_set.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = h264_sequence_parameter_set.h; sourceTree = "<group>"; };
+		7413AD511CE6F2E700EDBAEC /* h264_slice.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = h264_slice.c; sourceTree = "<group>"; };
+		7413AD521CE6F2E700EDBAEC /* h264_slice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = h264_slice.h; sourceTree = "<group>"; };
+		7413AD531CE6F2E700EDBAEC /* h264_stream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = h264_stream.c; sourceTree = "<group>"; };
+		7413AD541CE6F2E700EDBAEC /* h264_stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = h264_stream.h; sourceTree = "<group>"; };
+		7413AD551CE6F2E700EDBAEC /* h264_vui_parameters.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = h264_vui_parameters.c; sourceTree = "<group>"; };
+		7413AD561CE6F2E700EDBAEC /* h264_vui_parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = h264_vui_parameters.h; sourceTree = "<group>"; };
+		7413AD581CE6F2E700EDBAEC /* test_h264_parse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test_h264_parse.c; sourceTree = "<group>"; };
+		7413AD591CE6F2E700EDBAEC /* test_h264_parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test_h264_parse.h; sourceTree = "<group>"; };
+		7413AD5A1CE6F2E700EDBAEC /* test_h264_stream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test_h264_stream.c; sourceTree = "<group>"; };
+		7413AD5B1CE6F2E700EDBAEC /* test_h264_stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test_h264_stream.h; sourceTree = "<group>"; };
+		742591871CE6F38B00178E5C /* all_tests.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = all_tests.c; sourceTree = "<group>"; };
+		742591881CE6F38B00178E5C /* CuTest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CuTest.c; sourceTree = "<group>"; };
+		742591891CE6F38B00178E5C /* CuTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CuTest.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7413ACF91CE6EAD200EDBAEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7413AD121CE6EAD200EDBAEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7413AD1D1CE6EAD200EDBAEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7413ACF31CE6EAD200EDBAEC = {
+			isa = PBXGroup;
+			children = (
+				7413AD321CE6ED0100EDBAEC /* h264-parser */,
+				7413ACFE1CE6EAD200EDBAEC /* RP */,
+				7413AD181CE6EAD200EDBAEC /* RPTests */,
+				7413AD231CE6EAD200EDBAEC /* RPUITests */,
+				7413ACFD1CE6EAD200EDBAEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7413ACFD1CE6EAD200EDBAEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7413ACFC1CE6EAD200EDBAEC /* RP.app */,
+				7413AD151CE6EAD200EDBAEC /* RPTests.xctest */,
+				7413AD201CE6EAD200EDBAEC /* RPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7413ACFE1CE6EAD200EDBAEC /* RP */ = {
+			isa = PBXGroup;
+			children = (
+				7413AD021CE6EAD200EDBAEC /* AppDelegate.h */,
+				7413AD031CE6EAD200EDBAEC /* AppDelegate.m */,
+				7413AD051CE6EAD200EDBAEC /* ViewController.h */,
+				7413AD061CE6EAD200EDBAEC /* ViewController.m */,
+				7413AD081CE6EAD200EDBAEC /* Main.storyboard */,
+				7413AD0B1CE6EAD200EDBAEC /* Assets.xcassets */,
+				7413AD0D1CE6EAD200EDBAEC /* LaunchScreen.storyboard */,
+				7413AD101CE6EAD200EDBAEC /* Info.plist */,
+				7413ACFF1CE6EAD200EDBAEC /* Supporting Files */,
+			);
+			path = RP;
+			sourceTree = "<group>";
+		};
+		7413ACFF1CE6EAD200EDBAEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7413AD001CE6EAD200EDBAEC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7413AD181CE6EAD200EDBAEC /* RPTests */ = {
+			isa = PBXGroup;
+			children = (
+				7413AD191CE6EAD200EDBAEC /* RPTests.m */,
+				7413AD1B1CE6EAD200EDBAEC /* Info.plist */,
+			);
+			path = RPTests;
+			sourceTree = "<group>";
+		};
+		7413AD231CE6EAD200EDBAEC /* RPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7413AD241CE6EAD200EDBAEC /* RPUITests.m */,
+				7413AD261CE6EAD200EDBAEC /* Info.plist */,
+			);
+			path = RPUITests;
+			sourceTree = "<group>";
+		};
+		7413AD321CE6ED0100EDBAEC /* h264-parser */ = {
+			isa = PBXGroup;
+			children = (
+				742591871CE6F38B00178E5C /* all_tests.c */,
+				742591881CE6F38B00178E5C /* CuTest.c */,
+				742591891CE6F38B00178E5C /* CuTest.h */,
+				7413AD491CE6F2E700EDBAEC /* h264_nal_unit.c */,
+				7413AD4A1CE6F2E700EDBAEC /* h264_nal_unit.h */,
+				7413AD4B1CE6F2E700EDBAEC /* h264_parse.c */,
+				7413AD4C1CE6F2E700EDBAEC /* h264_parse.h */,
+				7413AD4D1CE6F2E700EDBAEC /* h264_pic_parameter_set.c */,
+				7413AD4E1CE6F2E700EDBAEC /* h264_pic_parameter_set.h */,
+				7413AD4F1CE6F2E700EDBAEC /* h264_sequence_parameter_set.c */,
+				7413AD501CE6F2E700EDBAEC /* h264_sequence_parameter_set.h */,
+				7413AD511CE6F2E700EDBAEC /* h264_slice.c */,
+				7413AD521CE6F2E700EDBAEC /* h264_slice.h */,
+				7413AD531CE6F2E700EDBAEC /* h264_stream.c */,
+				7413AD541CE6F2E700EDBAEC /* h264_stream.h */,
+				7413AD551CE6F2E700EDBAEC /* h264_vui_parameters.c */,
+				7413AD561CE6F2E700EDBAEC /* h264_vui_parameters.h */,
+				7413AD581CE6F2E700EDBAEC /* test_h264_parse.c */,
+				7413AD591CE6F2E700EDBAEC /* test_h264_parse.h */,
+				7413AD5A1CE6F2E700EDBAEC /* test_h264_stream.c */,
+				7413AD5B1CE6F2E700EDBAEC /* test_h264_stream.h */,
+				7413AD401CE6ED0100EDBAEC /* util.h */,
+			);
+			path = "h264-parser";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7413ACFB1CE6EAD200EDBAEC /* RP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7413AD291CE6EAD200EDBAEC /* Build configuration list for PBXNativeTarget "RP" */;
+			buildPhases = (
+				7413ACF81CE6EAD200EDBAEC /* Sources */,
+				7413ACF91CE6EAD200EDBAEC /* Frameworks */,
+				7413ACFA1CE6EAD200EDBAEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RP;
+			productName = RP;
+			productReference = 7413ACFC1CE6EAD200EDBAEC /* RP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7413AD141CE6EAD200EDBAEC /* RPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7413AD2C1CE6EAD200EDBAEC /* Build configuration list for PBXNativeTarget "RPTests" */;
+			buildPhases = (
+				7413AD111CE6EAD200EDBAEC /* Sources */,
+				7413AD121CE6EAD200EDBAEC /* Frameworks */,
+				7413AD131CE6EAD200EDBAEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7413AD171CE6EAD200EDBAEC /* PBXTargetDependency */,
+			);
+			name = RPTests;
+			productName = RPTests;
+			productReference = 7413AD151CE6EAD200EDBAEC /* RPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7413AD1F1CE6EAD200EDBAEC /* RPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7413AD2F1CE6EAD200EDBAEC /* Build configuration list for PBXNativeTarget "RPUITests" */;
+			buildPhases = (
+				7413AD1C1CE6EAD200EDBAEC /* Sources */,
+				7413AD1D1CE6EAD200EDBAEC /* Frameworks */,
+				7413AD1E1CE6EAD200EDBAEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7413AD221CE6EAD200EDBAEC /* PBXTargetDependency */,
+			);
+			name = RPUITests;
+			productName = RPUITests;
+			productReference = 7413AD201CE6EAD200EDBAEC /* RPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7413ACF41CE6EAD200EDBAEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = birneysky;
+				TargetAttributes = {
+					7413ACFB1CE6EAD200EDBAEC = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					7413AD141CE6EAD200EDBAEC = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 7413ACFB1CE6EAD200EDBAEC;
+					};
+					7413AD1F1CE6EAD200EDBAEC = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 7413ACFB1CE6EAD200EDBAEC;
+					};
+				};
+			};
+			buildConfigurationList = 7413ACF71CE6EAD200EDBAEC /* Build configuration list for PBXProject "RP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7413ACF31CE6EAD200EDBAEC;
+			productRefGroup = 7413ACFD1CE6EAD200EDBAEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7413ACFB1CE6EAD200EDBAEC /* RP */,
+				7413AD141CE6EAD200EDBAEC /* RPTests */,
+				7413AD1F1CE6EAD200EDBAEC /* RPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7413ACFA1CE6EAD200EDBAEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7413AD0F1CE6EAD200EDBAEC /* LaunchScreen.storyboard in Resources */,
+				7413AD0C1CE6EAD200EDBAEC /* Assets.xcassets in Resources */,
+				7413AD0A1CE6EAD200EDBAEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7413AD131CE6EAD200EDBAEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7413AD1E1CE6EAD200EDBAEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7413ACF81CE6EAD200EDBAEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7413AD611CE6F2E700EDBAEC /* h264_stream.c in Sources */,
+				7413AD601CE6F2E700EDBAEC /* h264_slice.c in Sources */,
+				7413AD071CE6EAD200EDBAEC /* ViewController.m in Sources */,
+				7413AD641CE6F2E700EDBAEC /* test_h264_parse.c in Sources */,
+				7413AD5E1CE6F2E700EDBAEC /* h264_pic_parameter_set.c in Sources */,
+				7425918B1CE6F38B00178E5C /* CuTest.c in Sources */,
+				7413AD621CE6F2E700EDBAEC /* h264_vui_parameters.c in Sources */,
+				7413AD5D1CE6F2E700EDBAEC /* h264_parse.c in Sources */,
+				7413AD5C1CE6F2E700EDBAEC /* h264_nal_unit.c in Sources */,
+				7413AD041CE6EAD200EDBAEC /* AppDelegate.m in Sources */,
+				7413AD011CE6EAD200EDBAEC /* main.m in Sources */,
+				7413AD5F1CE6F2E700EDBAEC /* h264_sequence_parameter_set.c in Sources */,
+				7413AD651CE6F2E700EDBAEC /* test_h264_stream.c in Sources */,
+				7425918A1CE6F38B00178E5C /* all_tests.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7413AD111CE6EAD200EDBAEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7413AD1A1CE6EAD200EDBAEC /* RPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7413AD1C1CE6EAD200EDBAEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7413AD251CE6EAD200EDBAEC /* RPUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7413AD171CE6EAD200EDBAEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7413ACFB1CE6EAD200EDBAEC /* RP */;
+			targetProxy = 7413AD161CE6EAD200EDBAEC /* PBXContainerItemProxy */;
+		};
+		7413AD221CE6EAD200EDBAEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7413ACFB1CE6EAD200EDBAEC /* RP */;
+			targetProxy = 7413AD211CE6EAD200EDBAEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7413AD081CE6EAD200EDBAEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7413AD091CE6EAD200EDBAEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7413AD0D1CE6EAD200EDBAEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7413AD0E1CE6EAD200EDBAEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7413AD271CE6EAD200EDBAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7413AD281CE6EAD200EDBAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7413AD2A1CE6EAD200EDBAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "\"$SRCROOT/h264-parser\"";
+				INFOPLIST_FILE = RP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.v2tech.commbarEnt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7413AD2B1CE6EAD200EDBAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "\"$SRCROOT/h264-parser\"";
+				INFOPLIST_FILE = RP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.v2tech.commbarEnt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7413AD2D1CE6EAD200EDBAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.birneysky.RPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RP.app/RP";
+			};
+			name = Debug;
+		};
+		7413AD2E1CE6EAD200EDBAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.birneysky.RPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RP.app/RP";
+			};
+			name = Release;
+		};
+		7413AD301CE6EAD200EDBAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.birneysky.RPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RP;
+			};
+			name = Debug;
+		};
+		7413AD311CE6EAD200EDBAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.birneysky.RPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7413ACF71CE6EAD200EDBAEC /* Build configuration list for PBXProject "RP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7413AD271CE6EAD200EDBAEC /* Debug */,
+				7413AD281CE6EAD200EDBAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7413AD291CE6EAD200EDBAEC /* Build configuration list for PBXNativeTarget "RP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7413AD2A1CE6EAD200EDBAEC /* Debug */,
+				7413AD2B1CE6EAD200EDBAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7413AD2C1CE6EAD200EDBAEC /* Build configuration list for PBXNativeTarget "RPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7413AD2D1CE6EAD200EDBAEC /* Debug */,
+				7413AD2E1CE6EAD200EDBAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7413AD2F1CE6EAD200EDBAEC /* Build configuration list for PBXNativeTarget "RPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7413AD301CE6EAD200EDBAEC /* Debug */,
+				7413AD311CE6EAD200EDBAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7413ACF41CE6EAD200EDBAEC /* Project object */;
+}
