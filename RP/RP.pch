@@ -1,0 +1,22 @@
+//
+//  RP.pch
+//  RP
+//
+//  Created by zhangguang on 16/5/17.
+//  Copyright © 2016年 birneysky. All rights reserved.
+//
+
+#ifndef RP_pch
+#define RP_pch
+
+#ifdef DEBUG
+
+#define DebugLog(fmt,...)  NSLog(@" %s %d "fmt,__FUNCTION__,__LINE__,__VA_ARGS__)
+
+#else
+
+#define DebugLog(fmt,...)
+
+#endif
+
+#endif /* RP_pch */
