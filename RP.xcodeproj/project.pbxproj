@@ -518,6 +518,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.v2tech.commbarEnt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "e4c6fe16-2704-499b-b8b4-04db72022fd9";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -533,6 +534,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.v2tech.commbarEnt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "e4c6fe16-2704-499b-b8b4-04db72022fd9";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

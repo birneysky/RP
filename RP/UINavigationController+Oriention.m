@@ -11,30 +11,30 @@
 @implementation UINavigationController (Oriention)
 
 
-- (BOOL)shouldAutorotate
-{
-    if ([self.topViewController respondsToSelector:@selector(shouldAutorotate)]) {
-        return [self.topViewController shouldAutorotate];
-    }
-    
-    return YES;
-}
-
-- (UIInterfaceOrientationMask)supportedInterfaceOrientations
-{
-    if ([self.topViewController respondsToSelector:@selector(supportedInterfaceOrientations)]) {
-        return [self.topViewController supportedInterfaceOrientations];
-    }
-    return UIInterfaceOrientationMaskAll;
-}
-
-- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation
-{
-    if ([self.topViewController respondsToSelector:@selector(preferredInterfaceOrientationForPresentation)]) {
-        return [self.topViewController preferredInterfaceOrientationForPresentation];
-    }
-    
-    return UIInterfaceOrientationPortrait;
-}
+//- (BOOL)shouldAutorotate
+//{
+//    if ([self.topViewController respondsToSelector:@selector(shouldAutorotate)]) {
+//        return [self.topViewController shouldAutorotate];
+//    }
+//    
+//    return YES;
+//}
+//
+//- (UIInterfaceOrientationMask)supportedInterfaceOrientations
+//{
+//    if ([self.topViewController respondsToSelector:@selector(supportedInterfaceOrientations)]) {
+//        return [self.topViewController supportedInterfaceOrientations];
+//    }
+//    return UIInterfaceOrientationMaskAll;
+//}
+//
+//- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation
+//{
+//    if ([self.topViewController respondsToSelector:@selector(preferredInterfaceOrientationForPresentation)]) {
+//        return [self.topViewController preferredInterfaceOrientationForPresentation];
+//    }
+//    
+//    return UIInterfaceOrientationPortrait;
+//}
 
 @end

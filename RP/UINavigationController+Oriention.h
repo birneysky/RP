@@ -10,10 +10,10 @@
 
 @interface UINavigationController (Oriention)
 
-- (BOOL)shouldAutorotate;
-
-- (UIInterfaceOrientationMask)supportedInterfaceOrientations;
-
-- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation;
+//- (BOOL)shouldAutorotate;
+//
+//- (UIInterfaceOrientationMask)supportedInterfaceOrientations;
+//
+//- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation;
 
 @end
