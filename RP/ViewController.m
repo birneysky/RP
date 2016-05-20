@@ -76,9 +76,11 @@
 {
     [super viewDidAppear:animated];
     //self.toolView.translatesAutoresizingMaskIntoConstraints = NO;
-//    [UIView animateWithDuration:5.0f animations:^{
-//        self.ttView.transform  = CGAffineTransformMakeRotation(M_PI / 2);
-//    }];
+    [UIView animateWithDuration:5.0f animations:^{
+        self.toolView.transform = CGAffineTransformIdentity;
+        self.toolView.transform  = CGAffineTransformMakeRotation(M_PI / 2);
+        self.toolView.transform = CGAffineTransformIdentity;
+    }];
 //    NSLog(@"toolViewe  %p",self.toolView);
 //    NSLog(@"self.view %p",self.view);
 //    NSLog(@"bottomLayoutGuide %p",self.bottomLayoutGuide);
@@ -129,11 +131,11 @@
         NSLog(@"tool  begin frame %@",NSStringFromCGRect(self.toolView.frame));
         
         [UIView animateWithDuration:0.5  animations:^{
-            self.toolView.transform = CGAffineTransformMakeRotation(M_PI / 2);
-            self.tvCenterXConstraint.constant = 0;
-            self.tvCenterYConstraint.constant = screenBounds.size.height / 2 - self.tvWidthConstraint.constant / 2;
-            self.tvHeightConstraint.constant = screenBounds.size.width;
-            [self.toolView layoutIfNeeded];
+//            self.toolView.transform = CGAffineTransformMakeRotation(M_PI / 2);
+//            self.tvCenterXConstraint.constant = 0;
+//            self.tvCenterYConstraint.constant = screenBounds.size.height / 2 - self.tvWidthConstraint.constant / 2;
+//            self.tvHeightConstraint.constant = screenBounds.size.width;
+//            [self.toolView layoutIfNeeded];
             //self.toolView.frame = CGRectMake(0, screenBunds.size.height - 84, screenBunds.size.width, 84);
         } completion:^(BOOL finished) {
            //[self.toolView setNeedsUpdateConstraints];
